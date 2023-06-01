@@ -1,0 +1,41 @@
+    main.cpp:
+        The main function serves as the entry point of the program.
+        It creates instances of Flight, Passenger, and Booking classes to simulate the management of flights, passengers, and bookings.
+        Two flights and two passengers are created as examples.
+        Two bookings are made, associating a flight with a passenger.
+        Finally, the bookings are displayed on the console.
+
+    flight.cpp:
+        The Flight class implementation begins with the constructor, which takes in parameters such as flight number, source, destination, date, departure time, and arrival time.
+        The constructor initializes the member variables of the Flight class using the provided values.
+        The display function is implemented to print the flight details, such as flight number, source, destination, date, departure time, and arrival time.
+
+    flight.h:
+        The Flight class definition is enclosed within the header guards to prevent multiple inclusions.
+        The class includes private member variables for flight number, source, destination, date, departure time, and arrival time.
+        The constructor and display function are declared as public member functions.
+        A flight object can be created by providing the necessary details through the constructor.
+        The display function allows printing the flight details to the console.
+
+    passenger.cpp:
+        The Passenger class begins with the constructor, which takes in parameters such as the passenger's name and email.
+        The constructor initializes the member variables of the Passenger class using the provided values.
+        The display function is implemented to print the passenger's name and email.
+
+    passenger.h:
+        The Passenger class definition is enclosed within the header guards to prevent multiple inclusions.
+        The class includes private member variables for the passenger's name and email.
+        The constructor and display function are declared as public member functions.
+        A passenger object can be created by providing the necessary details through the constructor.
+        The display function allows printing the passenger's details to the console.
+
+    booking.cpp:
+        The Booking class begins with the constructor, which takes in parameters for a flight object and a passenger object.
+        The constructor initializes the member variables of the Booking class using the provided flight and passenger objects.
+        The display function is implemented to print the booking details, including the flight details and passenger details.
+
+    booking.h:
+        The Booking class definition includes private member variables for a flight object and a passenger object.
+        The constructor and display function are declared as public member functions.
+        A booking object can be created by providing the necessary flight and passenger objects through the constructor.
+        The display function allows printing the booking details to the console.
